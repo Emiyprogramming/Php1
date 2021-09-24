@@ -1,0 +1,56 @@
+*{
+    margin: 0; /*mengatur garis tepi luar*/
+    padding: 0; /*jarak dalam kontenten dan bigkai*/
+    outline: 0; /*garis bingkai form*/
+    font-family: 'open sans', sans-serif; /*jenis font*/
+}
+body{
+    height: 100vh; /*mengatur ketinggian objeck*/
+    background-image: url(gambar.jpg); /*memasukan gambar*/
+    background-size: cover; /*mengatur ukuran gambar*/
+    background-position: center; /*menetapkan posisi awal*/
+    background-repeat: no-repeat; /*perulangan petter*/
+}
+.container{
+    position: absolute;/*untuk mengatur penempatan objek dalam halaman website. Ada lima macam posisi: static, relative, fixed, absolute, dan sticky*/
+    left: 50%; /*penempatan objek mulai dari jarak tepi kiri layar*/
+    top: 50%; /*merupakan penempatan objek mulai dari tepi atas layar*/
+    transform: translate(-50%, -50%); /*memungkinkan kita membuat efek rotasi dan animasi pada suatu objek*/
+    padding: 20px 25px; /*mengatur spasi atau jarak di dalam konten dengan satuan pixe*/
+    width: 300px; /*mengatur lebar objeck dlm satuan pixel*/
+    border-radius: 5px;
+    background-color: darkorchid; /*pewarnaan pada bayangan*/
+    box-shadow: 0 0 10px darkred; /*membuat bayangan pada objeck*/
+}
+.container h1{
+    text-align: left; /*untuk memposisikan teks. Ada beberapa posisi yang bisa Anda pilih: right, left, center, dan justify*/
+    color: darkturquoise; /*warna teks*/
+    margin-bottom: 30px; /*memberikan jarak dalam bagian bawah dalam satuan pixel*/
+    text-transform: uppercase; /*berperan untuk memodifikasi format teks. Ada tiga gaya yang bisa Anda pilih: uppercase, lowercase, dan capitalize*/
+    border-bottom: 4px solid #297929; /*memberikan garis bingkai pada bagian bawah teks. Anda juga bisa memodifikasi warnanya*/
+}
+.container label{
+    text-align: left; /*untuk mengatur posisi teks. Silakan pilih salah satu di antara: left, right, center, atau justify*/
+    color: forestgreen; /*mengubah warna teks*/
+}
+.container form input{
+    width: calc(100% -20px); /*untuk mengatur lebar objek*/
+    padding: 8px 10px; /*mengatur jarak dalam objek*/
+    margin-bottom: 15px; /*mengatur jarak objek dari garis tepi bagian bawah*/
+    border: none; /* fungsinya memberikan bingkai pada objek*/
+    background-color: fuchsia; /*untuk memodifikasi warna objek*/
+    border-bottom: 2px solid gold; /*memberikan bingkai bawah serta modifikasi warnanya*/
+    color: greenyellow; /*mengatur warna teks pada objek*/
+    font-size: 20px; /*mengubah jenis font di dalam objek*/
+    border-radius: 5px;
+    width: 93%;
+}
+.container form button{
+    width: 100%; /*fungsinya mengatur lebar objek*/
+    padding: 5px 0; /*untuk memodifikasi jarak dalam objek*/
+    border: none; /*memberikan bingkai pada objek*/
+    background-color: greenyellow; /*mengatur warna gambar latar belakang pada objek*/
+    font-size: 18px; /*untuk mengatur ukuran font pada objek*/
+    color: hotpink; /*berfungsi untuk mendesain warna objek*/
+    border-radius: 8px; /*ukuran pinggir*/
+}
